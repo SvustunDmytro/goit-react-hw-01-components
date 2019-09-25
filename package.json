@@ -43,5 +43,6 @@
     "lint-staged": "^9.3.0",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2"
-  }
+  },
+  "homepage": "https://svustundmytro.github.io/goit-react-hw-01-components/"
 }
