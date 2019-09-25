@@ -1,0 +1,31 @@
+/* your css code */
+.TransactionHistoryWrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+.transaction_history {
+  width: inherit;
+  height: 1200px;
+  text-align: center;
+  vertical-align: middle;
+}
+th {
+  background-color: #00bcd4;
+}
+th,
+td {
+  border: 1px solid grey;
+  padding: 20px 0;
+}
+th {
+  width: 20%;
+}
+td:first-child {
+  width: 30%;
+}
+tr {
+  background-color: #fff;
+}
+tr:nth-child(2n) {
+  background-color: #ecf2f3;
+}

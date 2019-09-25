@@ -1,0 +1,44 @@
+/* your css code */
+.StatsWrapper {
+  width: 270px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: #fff;
+}
+.stats_section {
+  text-align: center;
+  height: 130px;
+}
+.title {
+  font-size: 16px;
+  color: #475965;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 70px;
+  line-height: 70px;
+}
+.stat_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.item {
+  width: 20%;
+  border-right: 1px solid #475965;
+  border-top: 1px solid #475965;
+  margin-right: -1px;
+  height: inherit;
+}
+.item:last-child {
+  border-right: none;
+}
+.item span {
+  display: block;
+  padding: 7px 0;
+}
+.percentage {
+  font-size: 18px;
+}

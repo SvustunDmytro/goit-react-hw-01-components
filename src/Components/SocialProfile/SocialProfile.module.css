@@ -1,0 +1,73 @@
+/* your css code */
+.SocialProfileWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.profile {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  color: #768696;
+  font-size: 14px;
+}
+.description {
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin: 25px 0 0;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 0 10px;
+  color: #122236;
+}
+.tag {
+  padding: 0 0 10px;
+}
+.stats {
+  display: flex;
+  width: 100%;
+}
+.stats li {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3f6f9;
+  width: 33%;
+  border-right: 1px solid #bbbbbb;
+  border-top: 1px solid #bbbbbb;
+  height: 75px;
+  justify-items: center;
+  align-items: center;
+}
+.stats li:first-child {
+  border-bottom-left-radius: 10px;
+}
+.stats li:last-child {
+  border-bottom-right-radius: 10px;
+  border-right: none;
+  width: 34%;
+}
+.stats span {
+  width: 100%;
+  font-size: 12px;
+  padding: 20px 0 0;
+}
+.stats span:last-child {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1f3349;
+  align-items: flex-start;
+  vertical-align: top;
+  padding: 0 0 20px;
+}
