@@ -18,8 +18,4 @@ FriendListItem.propTypes = {
   isOnline: PropTypes.bool.isRequired,
 };
 
-FriendListItem.defaultProps = {
-  // bla: 'test',
-};
-
 export default FriendListItem;

@@ -52,8 +52,4 @@ SocialProfile.propTypes = {
   }).isRequired,
 };
 
-SocialProfile.defaultProps = {
-  // bla: 'test',
-};
-
 export default SocialProfile;

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './FriendList.module.css';
+// eslint-disable-next-line import/extensions
 import FriendListItem from './FriendListItem/FriendListItem.jsx';
 
 const FriendList = ({ friends }) => (
@@ -27,10 +28,6 @@ FriendList.propTypes = {
       id: PropTypes.number.isRequired,
     }).isRequired,
   ).isRequired,
-};
-
-FriendList.defaultProps = {
-  // bla: 'test',
 };
 
 export default FriendList;
